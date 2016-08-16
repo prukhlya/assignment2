@@ -10,7 +10,6 @@ public class BowlingNormal {
 		for (int i = 1; i <= numberOfFrames; i++) {
 
 			System.out.println("Frame " + i + ":");
-
 			int roll1 = (int) (Math.random() * numberOfPins + 1);
 			System.out.println("Roll 1 is: " + roll1);
 
