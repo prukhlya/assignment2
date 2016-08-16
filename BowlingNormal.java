@@ -26,7 +26,6 @@ public class BowlingNormal {
 			} else {
 				System.out.println(" ");
 				System.out.println("Your first roll was a STRIKE!! \n");
-
 			} // close the else for strike
 		} // first for loop
 		int frame10roll2 = 0;
@@ -51,7 +50,6 @@ public class BowlingNormal {
 			frame10roll2 = (int) (Math.random() * numberOfPins + 1);
 
 			System.out.println("Roll 2 is a:" + frame10roll2);
-
 		}
 		if (Math.addExact(frame10roll1, frame10roll2) == 20) {
 			System.out.println("Another strike! You get a third roll!");
