@@ -27,6 +27,9 @@ public class BowlingNormal {
 				System.out.println("Your first roll was a STRIKE!! \n");
 			} // close the else for strike
 		} // first for loop
+	
+	// below for the 10th frame. 2 strikes give you a 3rd roll.
+		
 		int frame10roll2 = 0;
 		int frame10roll1 = 0;
 		int frame10roll3 = 0;
